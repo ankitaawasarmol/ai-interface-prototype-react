@@ -16,7 +16,7 @@ export const App: React.FC = () => {
   const [prompt, setPrompt] = React.useState("");
 
   const openStorybook = () => {
-    window.open("http://localhost:6006", "_blank");
+    window.open("https://cozy-kleicha-d81e3e.netlify.app/");
   };
 
   return (
