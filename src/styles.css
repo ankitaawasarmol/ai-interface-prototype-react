@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ring: theme(colors.brand.500);
+}
+* { outline-color: var(--ring) }
